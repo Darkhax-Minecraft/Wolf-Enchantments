@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "wolfenchantments:restraint_curse",
+    "wolfenchantments:fire_fang",
+    "wolfenchantments:ice_fang",
+    "wolfenchantments:thunder_fang",
+    "wolfenchantments:poison_fang",
+    "wolfenchantments:psychic_fang",
+    "wolfenchantments:dire",
+    "wolfenchantments:scavenger",
+    "wolfenchantments:hunter_insight",
+    "wolfenchantments:swift_paws",
+    "wolfenchantments:reinforced"
+  ]
+}
