@@ -1,0 +1,34 @@
+{
+  "enchantment.wolfenchantments.reinforced": "Reinforced",
+  "enchantment.wolfenchantments.reinforced.desc": "Reduces how often wolf armor takes durability damage.",
+
+  "enchantment.wolfenchantments.dire": "Dire",
+  "enchantment.wolfenchantments.dire.desc": "Makes wolves larger and increases their max health.",
+
+  "enchantment.wolfenchantments.fire_fang": "Fire Fang",
+  "enchantment.wolfenchantments.fire_fang.desc": "Wolf attacks also burn the target.",
+
+  "enchantment.wolfenchantments.ice_fang": "Ice Fang",
+  "enchantment.wolfenchantments.ice_fang.desc": "Wolf attacks also slow the target.",
+
+  "enchantment.wolfenchantments.poison_fang": "Poison Fang",
+  "enchantment.wolfenchantments.poison_fang.desc": "Wolf attacks also poison the target.",
+
+  "enchantment.wolfenchantments.psychic_fang": "Psychic Fang",
+  "enchantment.wolfenchantments.psychic_fang.desc": "Wolf attacks also weaken the target, reducing their melee damage.",
+
+  "enchantment.wolfenchantments.thunder_fang": "Thunder Fang",
+  "enchantment.wolfenchantments.thunder_fang.desc": "Wolf attacks may summon lightning during storms. Also makes wolves immune to lightning and fire.",
+
+  "enchantment.wolfenchantments.hunter_insight": "Hunter Insight",
+  "enchantment.wolfenchantments.hunter_insight.desc": "Mobs killed by wolves drop more experience.",
+
+  "enchantment.wolfenchantments.restraint_curse": "Curse of Restraint",
+  "enchantment.wolfenchantments.restraint_curse.desc": "Makes wolves immune to most damage sources, but prevents them from attacking.",
+
+  "enchantment.wolfenchantments.scavenger": "Scavenger",
+  "enchantment.wolfenchantments.scavenger.desc": "Mobs killed by wolves drop more items.",
+
+  "enchantment.wolfenchantments.swift_paws": "Swift Paws",
+  "enchantment.wolfenchantments.swift_paws.desc": "Increases the movement speed of wolves."
+}

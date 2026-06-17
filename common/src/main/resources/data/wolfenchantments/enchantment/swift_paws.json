@@ -1,0 +1,34 @@
+{
+  "description": {
+    "translate": "enchantment.wolfenchantments.swift_paws"
+  },
+  "supported_items": "#minecraft:enchantable/wolf_armor",
+  "max_level": 5,
+  "anvil_cost": 2,
+  "weight": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "wolfenchantments:enchantment.swift_paws.speed",
+        "attribute": "minecraft:movement_speed",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.01,
+          "per_level_above_first": 0.01
+        }
+      }
+    ]
+  }
+}

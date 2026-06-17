@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.wolfenchantments.scavenger"
+  },
+  "supported_items": "#minecraft:enchantable/wolf_armor",
+  "max_level": 3,
+  "anvil_cost": 4,
+  "weight": 2,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "body"
+  ],
+  "effects": {
+  }
+}

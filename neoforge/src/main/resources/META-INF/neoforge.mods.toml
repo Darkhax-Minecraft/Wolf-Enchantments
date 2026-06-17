@@ -1,0 +1,43 @@
+modLoader = "javafml"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/Wolf-Enchantments/issues"
+
+[[mods]]
+modId = "wolfenchantments"
+version = "26.1.2.0"
+displayName = "WolfEnchantments"
+updateJSONURL = "https://updates.blamejared.com/get?n=wolfenchantments&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/wolf-enchantments"
+logoFile = "logo_wolfenchantments.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Empower your furry companions with interesting and powerful new enchantments!"
+
+[[mixins]]
+config = "wolfenchantments.common.mixins.json"
+
+[[mixins]]
+config = "wolfenchantments.neoforge.mixins.json"
+
+[[dependencies.wolfenchantments]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wolfenchantments]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wolfenchantments]]
+modId = "prickle"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+

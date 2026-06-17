@@ -1,0 +1,16 @@
+## Idea ##
+.idea/
+build/
+
+## Gradle ##
+.gradle/
+
+## Common ##
+common/out
+
+## Fabric ##
+fabric/out
+fabric/runs
+
+## NeoForge ##
+neoforge/run

@@ -1,0 +1,43 @@
+{
+  "description": {
+    "translate": "enchantment.wolfenchantments.fire_fang"
+  },
+  "supported_items": "#minecraft:enchantable/wolf_armor",
+  "exclusive_set": "#wolfenchantments:fangs",
+  "max_level": 3,
+  "anvil_cost": 5,
+  "weight": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "minecraft:linear",
+            "base": 4.0,
+            "per_level_above_first": 4.0
+          }
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      }
+    ]
+  }
+}

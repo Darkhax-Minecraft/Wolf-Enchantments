@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "wolfenchantments",
+  "version": "26.1.2.0",
+  "name": "WolfEnchantments",
+  "description": "Empower your furry companions with interesting and powerful new enchantments!",
+  "authors": [
+    "Darkhax"
+  ],
+  "contributors": [
+    "This project is made possible with Patreon support from players like you. Thank you!",
+    "lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+  ],
+  "contact": {
+    "sources": "https://github.com/Darkhax-Minecraft/Wolf-Enchantments",
+    "issues": "https://github.com/Darkhax-Minecraft/Wolf-Enchantments/issues",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/wolf-enchantments"
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo_wolfenchantments.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.darkhax.wolfenchantments.fabric.WolfEnchantmentsFabric"
+    ]
+  },
+  "mixins": [
+    "wolfenchantments.common.mixins.json",
+    "wolfenchantments.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "prickle": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/wolf-enchantments",
+        "modmenu.modrinth": "https://modrinth.com/mod/wolf-enchantments"
+      }
+    }
+  }
+}

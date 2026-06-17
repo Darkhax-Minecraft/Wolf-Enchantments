@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkhax.wolfenchantments.common.mixin",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [
+    "MixinEnchantedCountIncreaseFunction",
+    "MixinEnchantmentHelper",
+    "MixinItems",
+    "MixinLivingEntity"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

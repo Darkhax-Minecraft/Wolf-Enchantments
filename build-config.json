@@ -1,0 +1,43 @@
+{
+  "mod": {
+    "name": "WolfEnchantments",
+    "group": "net.darkhax.wolfenchantments",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "wolfenchantments",
+    "license": "All Rights Reserved",
+    "description": "Empower your furry companions with interesting and powerful new enchantments!",
+    "repo": "https://github.com/Darkhax-Minecraft/Wolf-Enchantments"
+  },
+  "curseforge": {
+    "slug": "wolf-enchantments",
+    "id": "1575966"
+  },
+  "modrinth": {
+    "slug": "wolf-enchantments",
+    "id": "1l2TDylE"
+  },
+  "dependencies": [
+    {
+      "name": "Prickle",
+      "type": "required",
+      "mod_id": {
+        "id": "prickle"
+      },
+      "maven": {
+        "common": "net.darkhax.pricklemc:prickle-common-26.1.2:26.1.2.1",
+        "neoforge": "net.darkhax.pricklemc:prickle-neoforge-26.1.2:26.1.2.1",
+        "fabric": "net.darkhax.pricklemc:prickle-fabric-26.1.2:26.1.2.1"
+      },
+      "curseforge": {
+        "slug": "prickle",
+        "id": "1023259"
+      },
+      "modrinth": {
+        "slug": "prickle",
+        "id": "aaRl8GiW"
+      }
+    }
+  ]
+}

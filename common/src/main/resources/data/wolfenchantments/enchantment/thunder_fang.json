@@ -1,0 +1,98 @@
+{
+  "description": {
+    "translate": "enchantment.wolfenchantments.thunder_fang"
+  },
+  "supported_items": "#minecraft:enchantable/wolf_armor",
+  "exclusive_set": "#wolfenchantments:fangs",
+  "max_level": 3,
+  "anvil_cost": 5,
+  "weight": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "wolfenchantments:thunder_fang_immunity"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:summon_entity",
+              "entity": "minecraft:lightning_bolt"
+            },
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 1.0,
+              "sound": "minecraft:item.trident.thunder",
+              "volume": 5.0
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": true
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
+            },
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "wolfenchantments:thunder_fang",
+              "unenchanted_chance": 0.0,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.10,
+                "per_level_above_first": 0.10
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

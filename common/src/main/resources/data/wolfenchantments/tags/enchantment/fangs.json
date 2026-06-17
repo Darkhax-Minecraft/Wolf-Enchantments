@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wolfenchantments:fire_fang",
+    "wolfenchantments:ice_fang",
+    "wolfenchantments:poison_fang",
+    "wolfenchantments:psychic_fang",
+    "wolfenchantments:thunder_fang"
+  ]
+}
