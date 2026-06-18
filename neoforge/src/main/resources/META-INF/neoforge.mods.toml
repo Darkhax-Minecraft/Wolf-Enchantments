@@ -4,9 +4,9 @@ issueTrackerURL = "https://github.com/Darkhax-Minecraft/Wolf-Enchantments/issues
 
 [[mods]]
 modId = "wolfenchantments"
-version = "26.1.2.0"
+version = "26.2.0.0"
 displayName = "WolfEnchantments"
-updateJSONURL = "https://updates.blamejared.com/get?n=wolfenchantments&gv=26.1.2&ml=neoforge"
+updateJSONURL = "https://updates.blamejared.com/get?n=wolfenchantments&gv=26.2&ml=neoforge"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/wolf-enchantments"
 logoFile = "logo_wolfenchantments.png"
 logoBlur = false
@@ -23,14 +23,14 @@ config = "wolfenchantments.neoforge.mixins.json"
 [[dependencies.wolfenchantments]]
 modId = "minecraft"
 type = "required"
-versionRange = "26.1"
+versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.wolfenchantments]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.1.0.1-beta,)"
+versionRange = "[26.2.0.1-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
